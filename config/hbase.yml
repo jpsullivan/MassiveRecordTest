@@ -1,0 +1,12 @@
+defaults: &defaults
+  host: ec2-23-22-131-47.compute-1.amazonaws.com
+  port: 9090
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
