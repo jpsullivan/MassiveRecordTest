@@ -8,9 +8,27 @@ Simple proof-of-concept demonstration using Massive_Record and Rails to communic
 Prerequisites
 -------------
 
-Ruby   => v1.9.2
-Rails  => v3.0.0
-HBase  => v0.9.4.8
-Hadoop => v0.20.2
+<table>
+  <tr>
+    <th>Application</th>
+  	<th>Vesion</th>	
+	</tr>
+  <tr>
+    <td>Ruby</td>
+    <td>1.9.2</td>
+  </tr>
+  <tr>
+    <td>Rails</td>
+    <td>3.0.0</td>
+  </tr>
+  <tr>
+    <td>HBase</td>
+    <td>0.9.4.8</td>
+  </tr>
+  <tr>
+    <td>Hadoop</td>
+    <td>0.20.2</td>
+  </tr>
+</table>
 
 Note: The Thrift server packaged with this version of HBase must be running and accessible over port 9090 as defined in the config/hbase.yml file. You will need to change the host entry to reflect your current host machine running the necessary Cloudera applications.
